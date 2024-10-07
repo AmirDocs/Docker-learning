@@ -11,3 +11,17 @@ Command | Description |
 `docker ps` |	List running containers. |
 `docker cp` |	Copy files to/from a container. |
 `docker logs <container_name>` | View the logs (stdout) of a container. To follow logs, add the `-f` option before the container name. |
+
+## **Docker Task**
+
+### **Phase 1**:
+Created a simple python web application using flask and ran it on my local machine. This gives a clear understanding of how the application works before containerisation with Docker.
+
+### **Phase 2**:
+Created a Dockerfile to initiate the build process, install flask into container and access it on port 5002 from a local host.
+
+### **Phase 3**:
+Initiated Dockerfile to be run as a container. 
+
+
+
