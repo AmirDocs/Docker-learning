@@ -18,4 +18,4 @@ if __name__ == '__main__':
 
 
 
-# Created a simple python web application using flask and ran it on my local machine. This gives a clear understanding of how the application works before containerisation with Docker.
+# Phase 1 - Created a simple python web application using flask and ran it on my local machine. This gives a clear understanding of how the application works before containerisation with Docker.
