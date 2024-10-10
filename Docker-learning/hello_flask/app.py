@@ -13,7 +13,7 @@ def hello_world():
         user="root",    # Username to connect to MySQL
         passwd="my-secret-pw",  # Password for the MySQL user
         db="mysql"      # Name of the database to connect to
-    )                                                              # After establishing a connection, query below.
+    )                                 # After establishing a connection, query below.
     cur = db.cursor()
     cur.execute("SELECT VERSION()")
     version = cur.fetchone()
@@ -33,6 +33,11 @@ if __name__ == '__main__':
 
 
 
+# PHASE 2 - initiating the build
+#               `docker build -t hello-flask .` initiates the build process.
+
+# Docker build initiates the build process, -t tags the image with a name (hello-flask), and the . represents the current directory.
+
 
 
 # Phase 3 - Linking containers together
@@ -50,5 +55,5 @@ if __name__ == '__main__':
 
 # PHASE 4 - Build Docker image for the flask app with the updated docker file.
 #                  'docker build -t hello-flask-mysql .'  (.) for the docker file.
-#                  'docker run -d --name myapp55 --network my-custom-network -p 5002:5002 hello-flask-mysql'
+#                  'docker run -d --name myapp45 --network my-custom-network -p 5002:5002 hello-flask-mysql'
 #  Allocated to `my app2` as `myapp` already exists for previous container.

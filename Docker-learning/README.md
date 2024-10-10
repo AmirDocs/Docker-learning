@@ -33,7 +33,9 @@ Connected flask app to mySQL database. Created a custom network with (my-custom 
 
 
 ## **Phase 4**: 
-Build Docker image for the flask app with the updated docker file.
+Built a Docker image for the flask app with the updated docker file. 
+
+![MYSQL custom network](https://github.com/user-attachments/assets/8efae3bb-0b0a-4b0e-9d86-9d6309633383)
 
 
 

@@ -53,8 +53,8 @@ CMD ["python", "app.py"]
 
 # PHASE 4 - Build Docker image for the flask app with the updated docker file.
 #                  'docker build -t hello-flask-mysql .'  (.) for the docker file.
-#                  'docker run -d --name myapp99 --network my-custom-network -p 5002:5002 hello-flask-mysql'
-#  Allocated to `my app99` after debugging flask sql installation.
+#                  'docker run -d --name myapp100 --network my-custom-network -p 5002:5002 hello-flask-mysql'
+#  Allocated to `my app100` after debugging flask sql installation.
 
 
 
