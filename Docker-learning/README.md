@@ -12,7 +12,7 @@ Command | Description |
 `docker cp` |	Copy files to/from a container. |
 `docker logs <container_name>` | View the logs (stdout) of a container. To follow logs, add the `-f` option before the container name. Use to debug.
 
-# **Docker Task**
+# **Docker Hello_flask Task**
 
 ## **Phase 1**:
 Created a simple python web application using flask and ran it on my local machine. This gives a clear understanding of how the application works before containerisation with Docker.
