@@ -7,10 +7,14 @@ Command | Description |
 `docker exec` | Run a command inside a container. |
 `docker restart` | Restart a running container. |
 `docker stop` | Stop a container. |
-`docker rm` |	Remove a container. |
+`docker rm` |	Remove a container. `rmi <image ID>` to remove an image you no longer need |
 `docker ps` |	List running containers. |
 `docker cp` |	Copy files to/from a container. |
 `docker logs <container_name>` | View the logs (stdout) of a container. To follow logs, add the `-f` option before the container name. Use to debug.
+`docker images` | Lists all images. |
+`docker inspect <image ID>` | Provides comprehensive information about such as the configuration, enviroment variable, layers and so much more |
+`docker inspect` <image ID> | Provides comprehensive information about such as the configuration, enviroment variable, layers and so much more |
+
 
 # **Docker Hello_flask Task**
 
@@ -93,3 +97,4 @@ then run a Flask container on the custom network, mapping port 5002 and using th
 ```
 docker run -p 5002:5002 --network my-app-network 872515255126.dkr.ecr.eu-west-2.amazonaws.com/flask-mysql:latest
 ```
+
