@@ -1,0 +1,18 @@
+version: '3.8' 
+
+services:
+  web:
+    build: .
+    ports:
+      - "5002:5002"
+    depends_on:
+      - mydb
+
+  mydb:
+    image: mysql:8
+    environment:
+      MYSQL_ROOT_PASSWORD: my-secret-pw
+
+env:
+  AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+  AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
